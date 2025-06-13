@@ -178,7 +178,7 @@ const default_configuration = {
             {
               name: "simulations",
               url: "https://www.csun.edu/science/software/simulations/physics.html",
-              icon: "balls",
+              icon: "circles-relation",
               icon_color: palette.peach,
             },
             {
@@ -190,7 +190,7 @@ const default_configuration = {
             {
               name: "openstax",
               url: "https://openstax.org/",
-              icon: "library",
+              icon: "book-2",
               icon_color: palette.blue,
             },
           ],
