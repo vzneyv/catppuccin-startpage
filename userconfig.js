@@ -213,10 +213,10 @@ const default_configuration = {
           name: "social media",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
-              icon_color: palette.green,
+              name: "instagram",
+              url: "https://www.instagram.com/",
+              icon: "brand-instagram",
+              icon_color: palette.red,
             },
             {
               name: "facebook",
