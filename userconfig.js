@@ -18,12 +18,6 @@ const default_configuration = {
     icon_color: palette.maroon,
   },
   additionalClocks: [
-    {
-      label: "IT",
-      timezone: "Europe/Venice",
-      format: "h:i",
-      icon_color: palette.peach,
-    },
   ],
   search: {
     engines: {
