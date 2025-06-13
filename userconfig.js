@@ -20,7 +20,7 @@ const default_configuration = {
   additionalClocks: [
     {
       label: "IT",
-      timezone: "Europe/Vicenza",
+      timezone: "Europe/Venice",
       format: "h:i",
       icon_color: palette.peach,
     },
