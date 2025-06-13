@@ -117,8 +117,8 @@ const default_configuration = {
       ],
     },
     {
-      name: "dev",
-      background_url: "src/img/banners/banner_07.gif",
+      name: "study",
+      background_url: "src/img/banners/banner_05.gif",
       categories: [
         {
           name: "research",
