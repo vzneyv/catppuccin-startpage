@@ -246,12 +246,6 @@ const default_configuration = {
           name: "gaming",
           links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
-              icon_color: palette.green,
-            },
-            {
               name: "steam",
               url: "https://store.steampowered.com",
               icon: "brand-steam",
@@ -264,10 +258,10 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
+              name: "discord",
+              url: "https://discord.com/app",
+              icon: "brand-discord",
+              icon_color: palette.blue
             },
           ],
         },
@@ -285,18 +279,6 @@ const default_configuration = {
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
             },
           ],
         },
