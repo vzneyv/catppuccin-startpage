@@ -14,13 +14,13 @@ const default_configuration = {
     scale: "C",
   },
   clock: {
-    format: "k:i p",
+    format: "h:i",
     icon_color: palette.maroon,
   },
   additionalClocks: [
     {
-      label: "UA",
-      timezone: "Europe/London",
+      label: "IT",
+      timezone: "Europe/Vicenza",
       format: "h:i",
       icon_color: palette.peach,
     },
