@@ -45,6 +45,7 @@ A minimalistic and customisable startpage featuring the [**Catppuccin palettes**
 - Customisable startpage / bookmarks manager
 - Search bar with multiple engines
 - Weather widget
+- Clock widget with 12/24-hour format and multiple time zones support
 
 # 🪵 Usage
 
@@ -60,6 +61,8 @@ A minimalistic and customisable startpage featuring the [**Catppuccin palettes**
 > You can find icons for your bookmarks using [`tabler-icons`](https://tabler.io/icons).
 >
 > To reduce icon loading times, you may install the icon [font](src/fonts) locally and activate the option `"localIcons": true` in the configuration to disable remote styles.
+>
+> To improve privacy and loading performance, you can now use local fonts instead of Google Fonts CDN by setting `"localFonts": true` in your configuration. This feature stores all required fonts (Roboto, Nunito, Raleway, and Material Icons) locally in the repository, eliminating external requests to Google's servers.
 
 ### As Homepage
 
@@ -85,8 +88,39 @@ The search dialogue allows you to display a search bar with various search engin
 
 To select search engine, simply prefix the query with the corresponding `!<id>`. By default, the defined search engines are:
 
+- `!p`: PerplexityAI
 - `!g`: Google
 - `!d`: DuckDuckGo (default)
+
+### ⏰ Clock
+
+The startpage now features an enhanced clock component with:
+
+- Support for 12-hour and 24-hour time formats
+- Multiple clocks for different time zones
+- Customisable formatting options
+- Locale support for regional time display
+
+You can configure the clock format and add additional time zones in your `userconfig.js`:
+
+```javascript
+clock: {
+  format: "h:i", // 24-hour format
+  icon_color: palette.maroon,
+},
+// Optional: Add multiple clocks for different time zones
+additionalClocks: [
+  {
+    label: "NYC", // Label for the clock
+    timezone: "America/New_York", // IANA timezone name (handles DST automatically)
+    format: "k:i p", // 12-hour format with leading zero (09:30 PM)
+    locale: "en-US", // Locale for date/time formatting
+    icon_color: palette.blue // Optional different icon color
+  }
+],
+```
+
+For full documentation of clock format options, [see](docs/CLOCK.md).
 
 ## 🖼️ Available Banners
 
@@ -102,6 +136,10 @@ To select search engine, simply prefix the query with the corresponding `!<id>`.
 | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
 | <img src="src/img/banners/banner_09.gif" width=175> | <img src="src/img/banners/banner_10.gif" width=175> | <img src="src/img/banners/banner_11.gif" width=175> | <img src="src/img/banners/banner_12.gif" width=175> |
 
-| banner_13                                           | banner_14                                           | banner_15                                           |
-| --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
-| <img src="src/img/banners/banner_13.gif" width=175> | <img src="src/img/banners/banner_14.gif" width=175> | <img src="src/img/banners/banner_15.gif" width=175> |
+| banner_13                                           | banner_14                                           | banner_15                                           | banner_16                                           |
+| --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| <img src="src/img/banners/banner_13.gif" width=175> | <img src="src/img/banners/banner_14.gif" width=175> | <img src="src/img/banners/banner_15.gif" width=175> | <img src="src/img/banners/banner_16.gif" width=175> |
+
+| banner_17                                           | banner_18                                           |
+| --------------------------------------------------- | --------------------------------------------------- |
+| <img src="src/img/banners/banner_17.gif" width=175> | <img src="src/img/banners/banner_18.gif" width=175> |
