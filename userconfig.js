@@ -274,12 +274,6 @@ const default_configuration = {
               icon: "movie",
               icon_color: palette.red,
             },
-            {
-              name: "miruro",
-              url: "https://www.miruro.com/",
-              icon: "eye",
-              icon_colour: palette.mauve,
-            },
           ],
         },
       ],
