@@ -90,7 +90,7 @@ const default_configuration = {
           links: [
             {
               name: "current events wiki",
-              url: "https://en.m.wikipedia.org/wiki/Portal:Current_events",
+              url: "https://en.wikipedia.org/wiki/Portal:Current_events",
               icon: "world",
               icon_color: palette.green,
             },
