@@ -112,7 +112,7 @@ const default_configuration = {
     },
     {
       name: "study",
-      background_url: "src/img/banners/banner_05.gif",
+      background_url: "src/img/banners/banner_16.gif",
       categories: [
         {
           name: "research",
@@ -193,7 +193,7 @@ const default_configuration = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/banner_08.gif",
+      background_url: "src/img/banners/banner_18.gif",
       categories: [
         {
           name: "social media",
