@@ -60,14 +60,14 @@ const default_configuration = {
           name: "workspace",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
+              name: "outlook",
+              url: "https://outlook.office.com/mail/",
+              icon: "mail",
               icon_color: palette.green,
             },
             {
               name: "calendar",
-              url: "https://calendar.google.com",
+              url: "https://outlook.office.com/calendar",
               icon: "calendar-filled",
               icon_color: palette.peach,
             },
@@ -138,11 +138,11 @@ const default_configuration = {
           ],
         },
         {
-          name: "artificial intelligence",
+          name: "university",
           links: [
             {
-              name: "ai studio",
-              url: "https://aistudio.google.com/app/prompts/new_chat",
+              name: "myuob",
+              url: "https://myuob.bham.ac.uk/",
               icon: "brain",
               icon_color: palette.green,
             },
