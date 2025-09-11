@@ -153,9 +153,15 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
+              name: "gradintel",
+              url: "https://gradintel.com/en/login",
+              icon: "pointer",
+              icon_color: palette.yellow,
+            },
+            {
               name: "intranet",
               url: "https://intranet.birmingham.ac.uk/account/login.aspx",
-              icon: "help",
+              icon: "cloud-network",
               icon_color: palette.red,
             },
           ],
