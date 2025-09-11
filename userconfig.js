@@ -161,7 +161,7 @@ const default_configuration = {
             {
               name: "intranet",
               url: "https://intranet.birmingham.ac.uk/account/login.aspx",
-              icon: "cloud-network",
+              icon: "help",
               icon_color: palette.red,
             },
           ],
