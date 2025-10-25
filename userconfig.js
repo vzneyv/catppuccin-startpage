@@ -79,8 +79,8 @@ const default_configuration = {
             },
             {
               name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
+              url: "https://www.office.com/login?ru=%2f",
+              icon: "brand-onedrive",
               icon_color: palette.blue,
             },
           ],
@@ -254,7 +254,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "anime",
+          name: "media",
           links: [
             {
               name: "anilist",
@@ -263,14 +263,14 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "myanimelist",
-              url: "https://myanimelist.net/",
-              icon: "book",
+              name: "letterboxd",
+              url: "https://letterboxd.com/",
+              icon: "brand-letterboxd",
               icon_color: palette.peach,
             },
             {
-              name: "animekai",
-              url: "https://animekai.to/",
+              name: "cineby",
+              url: "https://www.cineby.gd/",
               icon: "movie",
               icon_color: palette.red,
             },
