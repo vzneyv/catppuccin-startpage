@@ -115,9 +115,7 @@ const mocha = {
   mantle: "#181825",
   crust: "#11111b",
 };
-const gruvbox = {
 
-};
 const gruvbox = {
   // primary text tones
   text: "#ebdbb2",
