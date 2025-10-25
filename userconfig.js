@@ -78,7 +78,7 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "drive",
+              name: "onedrive",
               url: "https://www.office.com/login?ru=%2f",
               icon: "brand-onedrive",
               icon_color: palette.blue,
@@ -176,9 +176,9 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "simulations",
-              url: "https://www.csun.edu/science/software/simulations/physics.html",
-              icon: "circles-relation",
+              name: "overleaf",
+              url: "https://www.overleaf.com/",
+              icon: "leaf",
               icon_color: palette.peach,
             },
             {
