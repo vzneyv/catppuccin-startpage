@@ -122,19 +122,13 @@ const gruvbox = {
   subtext1: "#d5c4a1",
   subtext0: "#bdae93",
   
-  overlay2: "#a89984",
-  overlay1: "#928374",
-  overlay0: "#7c6f64",
-  surface2: "#665c54",
-  surface1: "#504945",
-  surface0: "#3c3836",
   // overlays / surfaces
-/*   overlay2: "#665c54",
+  overlay2: "#665c54",
   overlay1: "#7c6f64",
   overlay0: "#8b7b70",
   surface2: "#3c3836",
   surface1: "#32302f",
-  surface0: "#282828", */
+  surface0: "#282828",
 
   // background hierarchy (commonly used)
   base: "#282828",     // primary background
