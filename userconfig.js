@@ -3,7 +3,7 @@
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
 const preferredLightTheme = gruvbox;
-const preferredDarkTheme = mocha;
+const preferredDarkTheme = gruvbox;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
