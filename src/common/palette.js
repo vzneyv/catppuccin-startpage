@@ -115,3 +115,32 @@ const mocha = {
   mantle: "#181825",
   crust: "#11111b",
 };
+
+const gruvbox = {
+  // primary text tones
+  text: "#ebdbb2",
+  subtext1: "#d5c4a1",
+  subtext0: "#bdae93",
+
+  // overlays / surfaces
+  overlay2: "#665c54",
+  overlay1: "#7c6f64",
+  overlay0: "#8b7b70",
+  surface2: "#3c3836",
+  surface1: "#32302f",
+  surface0: "#282828",
+
+  // background hierarchy (commonly used)
+  base: "#282828",     // primary background
+  mantle: "#3a3a3a",   // subtle surface
+  crust: "#1d2021",    // deepest background
+
+  // flavour colours (commonly mapped in gruvbox startpages)
+  green: "#a9b665",    // typical gruvbox green (accent)
+  peach: "#e78a4e",    // orange/peach
+  red: "#ea6962",
+  pink: "#d3869b",
+  teal: "#7daea3",
+  yellow: "#d79921",
+  blue: "#7daea3",
+};
