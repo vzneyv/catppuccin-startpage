@@ -28,6 +28,7 @@ const default_configuration = {
   },
   keybindings: {
     "s": "search-bar",
+    "q": "config-tab",
   },
   disabled: [],
   localIcons: true,
